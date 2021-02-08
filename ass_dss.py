@@ -9,7 +9,7 @@ for x in range(0, len(arr)):
             temp = arr[x]
             arr[x] = arr[y]
             arr[y] = temp
-print();
+print()
 print("Elements of array in ascending order:- ")
 for x in range(0, len(arr)):
     print(arr[x], end=" ")
