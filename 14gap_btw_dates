@@ -1,0 +1,8 @@
+#gap between two dates:-
+from datetime import date
+d1=date(2014,7,2)
+print("starting date:-",d1)
+d2=date(2014,7,12)
+print("ending date:-",d2)
+date=d2-d1
+print("gap between",d1,"and",d2,"is",date.days,"days")
