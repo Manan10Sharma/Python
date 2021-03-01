@@ -6,4 +6,4 @@ for i in range(7):
         else:
             print(end="  ")
     print()
-print("program finished...  \n\nfor print A by stars(*)")
+print("program finished...")
