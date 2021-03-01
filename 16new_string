@@ -1,0 +1,7 @@
+#new string with "Is"
+def n_string(str):
+    if len(str)>=2 and str[:2]=="Is":
+        return str
+    return "Is"+str
+str=input("Enter a String:-")
+print(n_string(str),"Is New String")
