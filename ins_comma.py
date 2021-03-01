@@ -1,7 +1,0 @@
-print("\t\t #inserting commas to list and tuple...")
-v=input("input value using comma:")
-list=v.split(",")
-tuple=tuple(list)
-print("list",list)
-print("tuple:",tuple)
-print("\t\t #Program Finished...")
